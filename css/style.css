@@ -283,8 +283,16 @@ section.free-trial {
     padding: 136px 0;
     background-color: #b4d0e7;
 }
+.free-trial div.col-big {
+    width: 50%;
+}
 .free-trial h2 {
     color: #61082b;
+}
+.free-trial button {
+    width: 100%;
+    position: relative;
+    top: 10px;
 }
 /*----------------
     FOOTER
