@@ -24,6 +24,8 @@ section {
 /* Flex items */
 .row {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .col-big {
     width: 60%;
@@ -123,18 +125,11 @@ nav div a {
     top: 50px;
 }
 /* Business plan section */
-.business-plan h2 {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
 .radio-btns div{
     display: inline-block;
     margin: 40px 40px 40px 0;
 }
 /* Tabella business plan */
-.business-plan div.row, .enterprise div.row {
-    justify-content: space-between;
-}
 .business-plan div.card {
     border: 1px solid lightgray;
 }
@@ -148,10 +143,6 @@ nav div a {
 .table-specs, .table-checkmarks, .enterprise div.row {
     padding: 30px;
     font-size: 14px;
-}
-.table-specs h3, .enterprise div.row h3, .find-partner h3 {
-    font-size: 24px;
-    padding-bottom: 10px;
 }
 .table-specs small {
     display: block;
@@ -195,7 +186,7 @@ div.enterprise {
 div.enterprise div.col-small {
     padding-left: 45px;
 }
-div.enterprise p {
+div.enterprise p{
     padding-top: 50px;
 }
 /* Table-Checkmarks */
@@ -203,9 +194,6 @@ div.enterprise p {
     color: #0061ff;
 }
 /* Find-Partner Section */
-.find-partner div.row {
-    justify-content: space-between;
-}
 .find-partner div.col-small {
     width: 35%;
     position: relative;
@@ -214,6 +202,16 @@ div.enterprise p {
 .find-partner button {
     border: 1px solid black;
     margin-top: 30px;
+}
+/* Perks Section */
+.perks h2 {
+    padding: 50px 0 20px;
+}
+.perks p {
+    margin-top: 30px;
+}
+.perks div.col-small {
+    margin: 30px 0;
 }
 /*----------------
     FOOTER
@@ -226,4 +224,12 @@ body {
 }
 button {
     font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 24px;
+    padding-bottom: 10px;
 }
