@@ -155,7 +155,7 @@ nav div a {
 .bold-span {
     font-weight: bold;
 }
-.grey {
+.gray {
     color: gray;
 }
 .table-specs ul, .table-checkmarks ul {
@@ -294,9 +294,58 @@ section.free-trial {
     position: relative;
     top: 10px;
 }
+/* Faqs Section */
+section.faqs {
+    margin: 80px 0;
+}
+.faqs h2 {
+    margin-bottom: 50px;
+}
+.faqs-col {
+    width: 90%;
+}
+.faqs-symbol {
+    width: 10%;
+    font-size: 12px;
+    text-align: center;
+}
+.faqs-col, .faqs-symbol {
+    padding: 30px 0;
+    border-top: 1px solid black;
+}
+.last {
+    border-bottom: 1px solid black;
+}
 /*----------------
     FOOTER
 ----------------*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 70px 0 50px;
+}
+.five-cols {
+    width: 15%;
+}
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+footer li {
+    padding: 8px 0;
+}
+footer h3 {
+    padding: 30px 0 20px;
+}
+footer hr {
+    width: 10%;
+    margin: 80px 0 50px;
+    border: 1px 0 0;
+}
+footer span {
+    vertical-align: middle;
+    margin-right: 5px;
+}
 /*----------------
     TYPO
 ----------------*/
