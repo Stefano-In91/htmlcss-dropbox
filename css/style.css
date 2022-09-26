@@ -9,7 +9,6 @@
 /*----------------
     COMMON
 ----------------*/
-
 /* Containers */
 .container-big {
     max-width: 1180px;
@@ -35,7 +34,6 @@
 .col-small img {
     width: 100%;
 }
-
 /* Buttons */
 button {
     vertical-align: middle;
@@ -48,6 +46,19 @@ button {
     background-color: #0061ff;
     border: none;
     color: white;
+}
+/* Icone Fontawesome */
+i {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+/* Liste */
+ul {
+    list-style: none;
+}
+
+a {
+    color: #0061ff;
 }
 /*----------------
     HEADER
@@ -104,6 +115,80 @@ nav div a {
     position: relative;
     font-size: 50px;
     top: 50px;
+}
+/* Business plan section */
+section.business-plan {
+    padding: 50px 0;
+}
+.business-plan h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.radio-btns div{
+    display: inline-block;
+    margin: 40px 40px 40px 0;
+}
+/* Tabella business plan */
+.business-plan div.row {
+    justify-content: space-between;
+}
+.business-plan div.col-small {
+    border: 1px solid lightgray;
+}
+
+.table-header {
+    width: 100%;
+    text-align: center;
+    padding: 7px 0;
+    border-bottom: 1px solid lightgray;
+}
+/* Table-specs */
+.table-specs, .table-checkmarks {
+    padding: 30px;
+    font-size: 14px;
+}
+.table-specs h3 {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.table-specs small {
+    display: block;
+    font-size: 14px;
+    padding: 5px 0;
+}
+.bold-span {
+    font-weight: bold;
+}
+.grey {
+    color: gray;
+}
+.table-specs ul, .table-checkmarks ul {
+    padding: 20px 0;
+}
+.table-specs li, .table-checkmarks li {
+    display: flex;
+    margin: 15px 0;
+    vertical-align: middle;
+}
+.table-specs i, .table-checkmarks i {
+    position: relative;
+    top: 3px;
+}
+.table-specs button {
+    width: 100%;
+    font-size: inherit;
+}
+.buy-now{
+    display: inline-block;
+    padding: 30px 0;
+}
+.table-specs hr {
+    width: 25%;
+    border: 0.2px 0 0 solid lightgray;
+}
+/* Table-Checkmarks */
+.table-checkmarks i {
+    color: #0061ff;
 }
 /*----------------
     FOOTER
