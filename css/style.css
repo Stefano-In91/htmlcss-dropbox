@@ -129,13 +129,12 @@ section.business-plan {
     margin: 40px 40px 40px 0;
 }
 /* Tabella business plan */
-.business-plan div.row {
+.business-plan div.row, .enterprise div.row {
     justify-content: space-between;
 }
-.business-plan div.col-small {
+.business-plan div.card {
     border: 1px solid lightgray;
 }
-
 .table-header {
     width: 100%;
     text-align: center;
@@ -143,11 +142,11 @@ section.business-plan {
     border-bottom: 1px solid lightgray;
 }
 /* Table-specs */
-.table-specs, .table-checkmarks {
+.table-specs, .table-checkmarks, .enterprise div.row {
     padding: 30px;
     font-size: 14px;
 }
-.table-specs h3 {
+.table-specs h3, .enterprise div.row h3 {
     font-size: 24px;
     padding-bottom: 10px;
 }
@@ -174,7 +173,7 @@ section.business-plan {
     position: relative;
     top: 3px;
 }
-.table-specs button {
+.card button {
     width: 100%;
     font-size: inherit;
 }
@@ -185,6 +184,16 @@ section.business-plan {
 .table-specs hr {
     width: 25%;
     border: 0.2px 0 0 solid lightgray;
+}
+/* Div Enterprise */
+div.enterprise {
+    margin: 50px 0;
+}
+div.enterprise div.col-small {
+    padding-left: 45px;
+}
+div.enterprise p {
+    padding-top: 50px;
 }
 /* Table-Checkmarks */
 .table-checkmarks i {
