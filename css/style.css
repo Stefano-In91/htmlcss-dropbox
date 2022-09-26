@@ -9,6 +9,9 @@
 /*----------------
     COMMON
 ----------------*/
+section {
+    padding: 50px 0;
+}
 /* Containers */
 .container-big {
     max-width: 1180px;
@@ -39,13 +42,16 @@ button {
     vertical-align: middle;
 }
 .btn {
+    border: none;
     padding: 8px 16px;
     font-size: 16px;
 }
 .blue-btn {
     background-color: #0061ff;
-    border: none;
     color: white;
+}
+.white-btn {
+    background-color: white;
 }
 /* Icone Fontawesome */
 i {
@@ -117,9 +123,6 @@ nav div a {
     top: 50px;
 }
 /* Business plan section */
-section.business-plan {
-    padding: 50px 0;
-}
 .business-plan h2 {
     font-size: 40px;
     margin-bottom: 20px;
@@ -146,7 +149,7 @@ section.business-plan {
     padding: 30px;
     font-size: 14px;
 }
-.table-specs h3, .enterprise div.row h3 {
+.table-specs h3, .enterprise div.row h3, .find-partner h3 {
     font-size: 24px;
     padding-bottom: 10px;
 }
@@ -198,6 +201,19 @@ div.enterprise p {
 /* Table-Checkmarks */
 .table-checkmarks i {
     color: #0061ff;
+}
+/* Find-Partner Section */
+.find-partner div.row {
+    justify-content: space-between;
+}
+.find-partner div.col-small {
+    width: 35%;
+    position: relative;
+    top: 50px;
+}
+.find-partner button {
+    border: 1px solid black;
+    margin-top: 30px;
 }
 /*----------------
     FOOTER
