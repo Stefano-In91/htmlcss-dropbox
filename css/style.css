@@ -9,9 +9,46 @@
 /*----------------
     COMMON
 ----------------*/
+.btn {
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.blue-btn {
+    background-color: #0061ff;
+    border: none;
+    color: white;
+}
 /*----------------
     HEADER
 ----------------*/
+header {
+    padding: 40px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.logo-small {
+    vertical-align: middle;
+}
+nav div {
+    margin: 0 20px;
+}
+nav div > *:not(:last-child) {
+    margin-right: 35px;
+}
+nav div a {
+    text-decoration: none;
+    color: inherit;
+    vertical-align: middle;
+}
 /*----------------
     MAIN
 ----------------*/
