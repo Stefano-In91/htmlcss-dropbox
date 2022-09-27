@@ -48,7 +48,7 @@ button {
     vertical-align: middle;
     cursor: pointer;
     border: none;
-    padding: 6px 16px;
+    padding: 10px 16px;
     font-size: 16px;
 }
 .blue-btn {
@@ -106,6 +106,10 @@ nav div a {
     text-decoration: none;
     color: inherit;
     vertical-align: middle;
+}
+nav button {
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 /*----------------
     MAIN
