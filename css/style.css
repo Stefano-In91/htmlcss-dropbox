@@ -48,7 +48,7 @@ button {
     vertical-align: middle;
     cursor: pointer;
     border: none;
-    padding: 8px 16px;
+    padding: 6px 16px;
     font-size: 16px;
 }
 .blue-btn {
@@ -96,8 +96,11 @@ nav {
 nav div {
     margin: 0 20px;
 }
-nav div > *:not(:last-child) {
+nav div > *:not(button) {
     margin-right: 35px;
+}
+nav div a:last-of-type {
+    margin-right: 16px;
 }
 nav div a {
     text-decoration: none;
@@ -117,7 +120,7 @@ nav div a {
 .hero h1 {
     font-size: 75px;
     font-weight: 800;
-    padding: 80px 0 55px;
+    padding: 30px 0 55px;
 }
 .hero .col-small button {
     margin: 30px 0;
@@ -141,6 +144,7 @@ section.business-plan {
 /* Tabella business plan */
 .business-plan div.card {
     border: 1px solid lightgray;
+    flex-wrap: nowrap;
 }
 .table-header {
     width: 100%;
