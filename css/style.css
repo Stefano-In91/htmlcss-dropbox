@@ -125,9 +125,15 @@ nav div a {
 .hero .col-small i {
     position: relative;
     font-size: 50px;
-    top: 50px;
+    top: 60px;
+}
+.hero .col-big {
+    margin-bottom: -130px;
 }
 /* Business plan section */
+section.business-plan {
+    padding-top: 170px;
+}
 .radio-btns div{
     display: inline-block;
     margin: 40px 40px 40px 0;
@@ -230,6 +236,7 @@ section.clients {
 }
 .one-of-two {
     width: calc(100% / 2);
+    height: calc(100% /2);
 }
 .one-of-two img, .mid-col img {
     width: 50%;
@@ -244,6 +251,7 @@ section.clients {
 .mid-col {
     padding: 50px;
     background-color: #f5f5f5;
+    overflow-y: auto;
 }
 .mid-col hr {
     margin: 50px 0;
