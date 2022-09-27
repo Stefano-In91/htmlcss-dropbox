@@ -93,23 +93,22 @@ nav {
 .logo-small {
     vertical-align: middle;
 }
-nav div {
+nav ul {
     margin: 0 20px;
+    align-items: center;
 }
-nav div > *:not(button) {
+nav ul li:not(:last-child) {
     margin-right: 35px;
 }
-nav div a:last-of-type {
-    margin-right: 16px;
+nav button {
+    margin-left: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
-nav div a {
+nav a {
     text-decoration: none;
     color: inherit;
     vertical-align: middle;
-}
-nav button {
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 /*----------------
     MAIN
