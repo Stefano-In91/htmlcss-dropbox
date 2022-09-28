@@ -89,6 +89,7 @@ nav {
     align-items: center;
     height: 80px;
     background-color: white;
+    box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 20%);
 }
 .logo-small {
     vertical-align: middle;
@@ -114,30 +115,31 @@ nav a {
     MAIN
 ----------------*/
 /* Hero section */
-.hero {
+#hero {
     background-color: #b4d0e7;
 }
-.hero .col-big {
+#hero .col-big {
     width: 70%;
 }
-.hero h1 {
+#hero h1 {
     font-size: 75px;
     font-weight: 800;
     padding: 30px 0 55px;
 }
-.hero .col-small button {
+#hero .col-small button {
     margin: 30px 0;
 }
-.hero .col-small i {
+#hero .col-small i {
     position: relative;
     font-size: 50px;
     top: 60px;
 }
-.hero .col-big {
+/* Sovrapposizione immagine con prossima sezione*/
+#hero .col-big {
     margin-bottom: -130px;
 }
 /* Business plan section */
-section.business-plan {
+section#business-plan {
     padding-top: 170px;
 }
 .radio-btns div{
@@ -145,7 +147,7 @@ section.business-plan {
     margin: 40px 40px 40px 0;
 }
 /* Tabella business plan */
-.business-plan div.card {
+#business-plan div.card {
     border: 1px solid lightgray;
     flex-wrap: nowrap;
 }
@@ -206,36 +208,36 @@ div.enterprise p{
     color: #0061ff;
 }
 /* Find-Partner Section */
-.find-partner div.col-small {
+#find-partner div.col-small {
     width: 35%;
     position: relative;
     top: 50px;
 }
-.find-partner button {
+#find-partner button {
     border: 1px solid black;
     margin-top: 30px;
 }
 /* Perks Section */
-.perks h2 {
+#perks h2 {
     padding: 50px 0 20px;
 }
-.perks p {
+#perks p {
     margin-top: 30px;
 }
-.perks div.col-small {
+#perks div.col-small {
     margin: 30px 0;
 }
 /* Clients Section */
-section.clients {
+section#clients {
     padding-bottom: 0;
 }
-.clients h2 {
+#clients h2 {
     margin: 50px 0;
 }
 .big-ass {
-    width: 100vw;
-    height: calc(100vw / 3);
-    margin-top: 100px;
+    width: 99vw;
+    height: calc(99vw / 3);
+    margin: 100px auto 0;
 }
 .one-of-three {
     width: calc(100% / 3);
@@ -293,27 +295,27 @@ section.clients {
     background-color: #ffd830;
 }
 /* Free-trial Section */
-section.free-trial {
+section#free-trial {
     margin: 0;
     padding: 136px 0;
     background-color: #b4d0e7;
 }
-.free-trial div.col-big {
+#free-trial div.col-big {
     width: 50%;
 }
-.free-trial h2 {
+#free-trial h2 {
     color: #61082b;
 }
-.free-trial button {
+#free-trial button {
     width: 100%;
     position: relative;
     top: 10px;
 }
 /* Faqs Section */
-section.faqs {
+section#faqs {
     margin: 80px 0;
 }
-.faqs h2 {
+#faqs h2 {
     margin-bottom: 50px;
 }
 .faqs-col {
